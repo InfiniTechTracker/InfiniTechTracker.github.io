@@ -11,11 +11,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { HomeComponent } from './home/home.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { TechnicalOverviewComponent } from './technical-overview/technical-overview.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    TechnicalOverviewComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +36,11 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
