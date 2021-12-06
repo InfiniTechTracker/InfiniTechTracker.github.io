@@ -40,7 +40,8 @@ import { ContactComponent } from './contact/contact.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    MatDividerModule
+    MatDividerModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
